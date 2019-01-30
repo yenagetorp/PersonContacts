@@ -1,0 +1,75 @@
+﻿<Window x:Class="WPF_PersonsDatabase.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_PersonsDatabase"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Border Padding="10">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <ListBox x:Name="listBoxPersons" Grid.Column="0" SelectionChanged="ListBoxPersons_SelectionChanged"/>
+            <Border Grid.Column="1" Padding="10 0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0">
+                        <Label Margin="0 0 0 0" Content="First Name"/>
+                        <TextBox VerticalContentAlignment="Center" x:Name="textBoxFirstName" Height="25" Margin="0 0 0 5"></TextBox>
+                        <Label Content="Last Name" />
+                        <TextBox VerticalContentAlignment="Center" x:Name="textBoxLastName" Height="25" Margin="0 0 0 5"></TextBox>
+                        <Label Content="Email Address" />
+                        <TextBox VerticalContentAlignment="Center" x:Name="textBoxEmail" Height="25" Margin="0 0 0 5"></TextBox>
+                        <Label Content="SSN" />
+                        <TextBox VerticalContentAlignment="Center" x:Name="textBoxSSN" Height="25" Margin="0 0 0 5"></TextBox>
+                    </StackPanel>
+                    <Label Grid.Row="1" Content="Phone Numbers"/>
+                    <Border Padding="3" Margin="0 0 0 10" BorderThickness="1" Grid.Row="2" BorderBrush="#FFABADB3">
+                        <ItemsControl ItemsSource="{Binding PhoneNumbers}" x:Name="listBoxPhoneNumbers" HorizontalContentAlignment="Stretch" Grid.Row="2" Margin="0 0 0 10">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Margin="0 0 0 2">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock VerticalAlignment="Center" Grid.Column="0" Text="{Binding}"></TextBlock>
+                                        <Button Padding="4 0" x:Name="buttonEditPhoneNumber" Grid.Column="1" Content="Edit" Margin="2 0" Click="ButtonEditPhoneNumber_Click"></Button>
+                                        <Button Padding="4 0" x:Name="buttonDeletePhoneNumber" Grid.Column="2" Content="Delete" Margin="2 0" Click="ButtonDeletePhoneNumber_Click"></Button>
+                                    </Grid>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </Border>
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="textBoxPhoneNumber" VerticalContentAlignment="Center" Grid.Column="0"></TextBox>
+                        <Button Height="25" Margin="10 0 0 0" Padding="20 0" Grid.Column="1" x:Name="buttonAddPhoneNumber"  Content="Add" Click="ButtonAddPhoneNumber_Click"></Button>
+                        <TextBox x:Name="hiddenTextBoxPhoneNumber" Visibility="Hidden"/>
+                    </Grid>
+                </Grid>
+            </Border>
+            <Border Padding="10 0" Grid.Column="2">
+                <DockPanel Grid.Column="2" LastChildFill="false">
+                    <Button x:Name="buttonAddPerson" DockPanel.Dock="Top" Height="35" Content="Add Person" Click="ButtonAddPerson_Click"/>
+                    <Button x:Name="buttonUpdatePerson" DockPanel.Dock="Top" Margin="0 10" Height="35" Content="Update Person" Click="ButtonUpdatePerson_Click"/>
+                    <Button x:Name="buttonDeletePerson" DockPanel.Dock="Top" Height="35" Content="Delete Person" Click="ButtonDeletePerson_Click"/>
+                    <Button x:Name="buttonExit" Width="75" HorizontalAlignment="Right" DockPanel.Dock="Bottom" Height="35" Content="Exit" Click="ButtonExit_Click"/>
+                </DockPanel>
+            </Border>
+        </Grid>
+    </Border>
+</Window>

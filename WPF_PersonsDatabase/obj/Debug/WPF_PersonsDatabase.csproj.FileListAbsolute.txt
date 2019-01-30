@@ -1,0 +1,30 @@
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\bin\Debug\WPF_PersonsDatabase.exe.config
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\bin\Debug\WPF_PersonsDatabase.exe
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\bin\Debug\WPF_PersonsDatabase.pdb
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase.csprojAssemblyReference.cache
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\MainWindow.g.cs
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\App.g.cs
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase_MarkupCompile.cache
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase_MarkupCompile.lref
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\MainWindow.baml
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase.g.resources
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase.Properties.Resources.resources
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase.csproj.GenerateResource.cache
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase.csproj.CoreCompileInputs.cache
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase.exe
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase.pdb
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\bin\Debug\WPF_PersonsDatabase.exe.config
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\bin\Debug\WPF_PersonsDatabase.exe
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\bin\Debug\WPF_PersonsDatabase.pdb
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase.csprojAssemblyReference.cache
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\MainWindow.g.cs
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\App.g.cs
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase_MarkupCompile.cache
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase_MarkupCompile.lref
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\MainWindow.baml
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase.g.resources
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase.Properties.Resources.resources
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase.csproj.GenerateResource.cache
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase.csproj.CoreCompileInputs.cache
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase.exe
+C:\Users\Yen Agetorp\OneDrive\C# course\repos\Person DataBases\WPF_PersonsDatabase\WPF_PersonsDatabase\obj\Debug\WPF_PersonsDatabase.pdb
